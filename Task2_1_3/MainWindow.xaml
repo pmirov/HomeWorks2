@@ -1,0 +1,20 @@
+﻿<Window x:Class="Task2_1_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task2_1_3"
+        mc:Ignorable="d"
+        Title="Убегающая кнопка" Height="300" Width="500">
+    <Grid Name="MainGrid">
+        <Button Name="Button"
+                Content="Поймай меня!" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Width="120"
+                Height="30"
+                Background="OliveDrab"
+                Margin="165,124,0,0" Foreground="White" FontWeight="Bold" MouseEnter="Button_MouseEnter" />
+
+    </Grid>
+</Window>
